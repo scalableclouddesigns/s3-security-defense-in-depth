@@ -1,6 +1,6 @@
 # S3 Security Defense in Depth
 
-A small hands-on showcase of the security controls covered in the **Cloud Colosseum S3 Security Challenge - "Secure the Bucket"**.
+A small hands-on showcase of the security controls covered in the **S3 Security Challenge - "Secure the Bucket"**.
 
 The challenge starts with a deliberately vulnerable S3 bucket and progressively applies multiple layers of protection.
 
@@ -73,7 +73,6 @@ s3-security-defense-in-depth/
 │   ├── lambda-role-access.json
 │   └── deny-insecure-transport.json
 └── docs/
-    ├── validation-tests.md
     ├── production-checklist.md
     └── key-takeaways.md
 ```
