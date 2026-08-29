@@ -140,22 +140,3 @@ The challenge also highlights:
 Once S3 Versioning has been enabled, it cannot be fully disabled.
 
 It can be **suspended**, but existing object versions remain until they are deleted manually or by lifecycle rules.
-
-## Interview Summary
-
-If asked, **"How would you secure an S3 bucket for a production application?"**, a strong answer should cover:
-
-- Block Public Access
-- Least-privilege bucket policies
-- IAM roles instead of long-lived credentials
-- HTTPS enforcement
-- Encryption at rest
-- Versioning / Object Lock where appropriate
-- Private connectivity using VPC endpoints
-- Monitoring and auditing
-
-## Source
-
-Based on the Cloud Colosseum **S3 Security Challenge - "Secure the Bucket"** workshop material.
-
-This repository is intended as a learning showcase and uses generalized placeholders instead of workshop-specific account IDs, bucket names, and role names.
